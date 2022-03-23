@@ -1,74 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
 
 $secondary: #868686;
-$background: white;
-$text-primary: #172A3A;
-$text-secondary: #DA4167;
+$background: #fbfbfb;
+$text-primary: #172a3a;
+$text-secondary: #da4167;
+$black: #141414;
 
-.cover_nav {
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 120px;
+  height: 10vh;
+  width: 100%;
+  background: $background;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  a {
+    color: $text-primary;
+    text-decoration: none;
+    font-family: "Gilroy", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    &:hover {
+      color: $text-secondary;
+    }
+  }
+  .btn {
+    cursor: pointer;
+    background: $text-secondary;
+    color: $background;
+    border: none;
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 60px;
     display: flex;
+    border-radius: 8px;
     justify-content: center;
     align-items: center;
-    color:$text-primary;
-   
-
-
-.nav {
-    
-    // background-color: aqua;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color:aqua;
-    width:100%;
-    height: 59px;
-    position: absolute;
-    top:40px;
-
-    .product_name{
-    color: $text-primary;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 151%;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+      background: $text-primary;
+      color: $background;
     }
-
-    .download_btn{
-        width: 228px;
-        height: 59px;
-        
-        button{
-            color: $text-primary;
-            width:100%;
-            height: 100%;
-            background: $text-secondary;
-            box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.22);
-            border: $text-secondary;
-            border-radius: 8px;
-
-            p{
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 16px;
-                line-height: 19px;
-                
-                .arrow{
-                    font-size: 1px;
-                    line-height: 28px;
-                    position: relative;
-                    top: 2px;
-                    left:5px;
-                }
-            }
-        }
-    }
-    .download_btn button:hover{
-        opacity: 0.8;
-        cursor: pointer;
-        transition: all 0.4s ease-in;
-    }
-    
   }
 }

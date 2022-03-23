@@ -1,0 +1,75 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+
+$secondary: #868686;
+$background: #fbfbfb;
+$text-primary: #172a3a;
+$text-secondary: #da4167;
+$black: #141414;
+
+.hero {
+  background: url("../../public/Group\ 1.png");
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 120px 0px 120px;
+  .hero__text {
+    width: 50%;
+    h1 {
+      font-family: "Gilroy", sans-serif;
+      font-size: 64px;
+      font-weight: bold;
+      color: $text-primary;
+      margin: 0;
+      padding: 0;
+    }
+    span {
+      color: $text-secondary;
+    }
+    p {
+      font-family: "Gilroy", sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      color: $secondary;
+      margin: 0;
+      padding: 0;
+      line-height: 138%;
+      margin: 24px 0px;
+    }
+  }
+  .hero__button {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 992px) {
+    padding: 70px 30px 0px 30px;
+    .hero__text {
+      width: 100%;
+      h1 {
+        font-size: 48px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+    padding: 0px 30px 0px 30px;
+    .hero__text {
+      width: 100%;
+      h1 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .hero__image {
+      width: 320px !important;
+      height: auto;
+    }
+  }
+}
