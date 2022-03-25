@@ -1,0 +1,120 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+
+$secondary: #868686;
+$background: #fbfbfb;
+$text-primary: #172a3a;
+$text-secondary: #da4167;
+$black: #141414;
+
+.faq {
+  // font-family: 'Gilroy-Bold';
+  height: 100vh;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+
+  padding: 100px 120px 0px 120px;
+
+  .faq_head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // width: 153px;
+    // height: 73px;
+
+    h1 {
+      font-size: 64px;
+      line-height: 114%;
+      font-family: "Gilroy", sans-serif;
+      color: $text-secondary;
+    }
+  }
+
+  .slider_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    :hover {
+      cursor: pointer;
+    }
+
+    .slider {
+      display: flex;
+      justify-content: space-around;
+      width: 362px;
+      height: 70px;
+      background-color: #e6e6e6;
+      border-radius: 10px;
+
+      .slide_button_before {
+        width: 166.86px;
+        background-color: #da4167;
+        border-radius: 10px;
+        position: relative;
+        left: -25%;
+        transition: all 0.5s;
+      }
+      .slide_button_after {
+        width: 166.86px;
+        background-color: #da4167;
+        border-radius: 10px;
+        position: relative;
+        left: 25%;
+        transition: all 0.5s;
+      }
+
+      .p1_before {
+        font-family: "Gilroy", sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        z-index: 9;
+        position: absolute;
+        left: 42vw;
+        transition: all 0.5s;
+      }
+      .p1_after {
+        font-family: "Gilroy", sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        z-index: 9;
+        position: absolute;
+        left: 42vw;
+        color: $background;
+        transition: all 0.5s;
+      }
+    }
+
+    .p2_before {
+      font-family: "Gilroy", sans-serif;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 26px;
+      z-index: 9;
+      position: absolute;
+      right: 42vw;
+      transition: all 0.5s;
+    }
+    .p2_after {
+      font-family: "Gilroy", sans-serif;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 26px;
+      z-index: 9;
+      position: absolute;
+      right: 42vw;
+      color: $background;
+      transition: all 0.5s;
+    }
+  }
+
+  .faq_question_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .question_list {
+      height: 100%;
+    }
+  }
+}
