@@ -64,8 +64,8 @@ export default function FAQ() {
               <Image
                 src={mobile_img}
                 alt="Play Store"
-                width={650}
-                height={650}
+                width={600}
+                height={600}
               />
             </a>
           </div>
