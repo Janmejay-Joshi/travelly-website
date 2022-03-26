@@ -1,0 +1,116 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+
+$secondary: #868686;
+$background: #fbfbfb;
+$text-primary: #172a3a;
+$text-secondary: #da4167;
+$black: #141414;
+.working {
+  padding: 0px 120px;
+  h1 {
+    font-family: "Gilroy", sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: $text-primary;
+    margin-bottom: 1rem;
+    text-align: center;
+    span {
+      font-family: "Gilroy", sans-serif;
+      font-size: 64px;
+      font-weight: bold;
+      color: $text-secondary;
+    }
+  }
+  .working_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .next_img {
+      z-index: 9999 !important;
+    }
+    .working_container_item_left {
+      flex: 1;
+      display: flex;
+      justify-content: right;
+      flex-direction: column;
+      margin: 0px 12px;
+      .working_container_item_detail {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 12px 8px;
+        p {
+          font-family: "Gilroy", sans-serif;
+          font-size: 36px;
+          font-weight: bold;
+          color: $background;
+          background-color: #da4167;
+          padding: 15px 25px;
+          border-radius: 8px;
+          margin: 0px !important;
+        }
+        h3 {
+          font-family: "Gilroy", sans-serif;
+          font-size: 24px;
+          font-weight: bold;
+          color: $text-primary;
+          margin: 8px 0px !important;
+        }
+        span {
+          font-family: "Gilroy", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 100%;
+          /* or 16px */
+          text-align: right;
+          color: $secondary;
+          margin: 12px 0px;
+        }
+      }
+    }
+    .working_container_item_right {
+      flex: 1;
+      display: flex;
+      justify-content: right;
+      flex-direction: column;
+      margin: 0px 12px;
+      .working_container_item_detail {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 12px 8px;
+        p {
+          font-family: "Gilroy", sans-serif;
+          font-size: 36px;
+          font-weight: bold;
+          color: $background;
+          background-color: #da4167;
+          padding: 15px 25px;
+          border-radius: 8px;
+          margin: 0px !important;
+        }
+        h3 {
+          font-family: "Gilroy", sans-serif;
+          font-size: 24px;
+          font-weight: bold;
+          color: $text-primary;
+          margin: 8px 0px !important;
+        }
+        span {
+          font-family: "Gilroy", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 100%;
+          /* or 16px */
+          text-align: left;
+          color: $secondary;
+          margin: 12px 0px;
+        }
+      }
+    }
+  }
+}

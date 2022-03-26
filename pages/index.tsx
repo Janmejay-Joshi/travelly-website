@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import Navigation from "../components/Navigation/index";
 import Hero from '../components/Hero';
+import Working from '../components/Working';
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       </Head>
       <Navigation />
       <Hero />
+      <Working />
     </>
 
   )
