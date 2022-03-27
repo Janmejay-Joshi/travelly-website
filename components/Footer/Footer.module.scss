@@ -1,0 +1,68 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+
+$secondary: #868686;
+$background: #fbfbfb;
+$text-primary: #172a3a;
+$text-secondary: #da4167;
+$black: #141414;
+.main_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 120px;
+  height: 417px;
+  margin-top: 184px;
+  margin-bottom: 50px;
+  font-family: "Gilroy", sans-serif;
+  color: $background;
+  overflow: hidden;
+
+  .cover_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    width: 100%;
+
+    height: 100%;
+    background-color: $text-secondary;
+    border-radius: 10px;
+
+    .left_part {
+      width: 679px;
+
+      .content {
+        h1 {
+          font-size: 48px;
+          line-height: 56px;
+        }
+        p {
+          font-size: 24px;
+          line-height: 28px;
+        }
+      }
+
+      .footer_btn {
+        .img {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .phone_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .phone1 {
+      position: relative;
+      top: 126px;
+
+      left: 50px;
+    }
+    .phone2 {
+      position: relative;
+      bottom: 194px;
+    }
+  }
+}

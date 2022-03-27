@@ -1,14 +1,15 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.scss'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.scss";
 import Navigation from "../components/Navigation/index";
-import Hero from '../components/Hero';
-<<<<<<< HEAD
-import Working from '../components/Working';
-=======
-import Faq from "../components/Faq/index"
->>>>>>> 9fbe38b5d2ce46e206234934432d24fa37688d3c
+import Hero from "../components/Hero";
+
+import Working from "../components/Working";
+
+import Faq from "../components/Faq/index";
+
+import Footer from "../components/Footer/index";
 
 const Home: NextPage = () => {
   return (
@@ -20,16 +21,14 @@ const Home: NextPage = () => {
       </Head>
       <Navigation />
       <Hero />
-<<<<<<< HEAD
+
       <Working />
-=======
-      <Faq/>
-      
-      
->>>>>>> 9fbe38b5d2ce46e206234934432d24fa37688d3c
+
+      <Faq />
+
+      <Footer />
     </>
+  );
+};
 
-  )
-}
-
-export default Home
+export default Home;
