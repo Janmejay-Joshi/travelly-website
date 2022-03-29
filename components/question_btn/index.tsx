@@ -12,52 +12,16 @@ export default function Index(props: props) {
 
   return (
     <>
-      <motion.div className={styles.main_div}>
-        <motion.div layout className={styles.disclosure_btn}>
-          <motion.div
-            layout
-            className={styles.btn_top}
-            onClick={() => setRotate(!rotate)}
-          >
-            <motion.div>
-              <p>FAQ {props.num}</p>
-            </motion.div>
-            <motion.div className={rotate ? styles.up : styles.down}>
-              <p>^</p>
-            </motion.div>
+      <motion.div layout transition={{ layout: { duration: 0.25, type: "spring" } }} onClick={() => setRotate(!rotate)} className={styles.card}>
+        <motion.h2 layout="position">
+          {props.ques}
+        </motion.h2>
+        {
+          rotate &&
+          <motion.div layout="position">
+            <p>{props.ans}</p>
           </motion.div>
-
-          <AnimatePresence>
-            {rotate && (
-              <motion.div
-                className={styles.disclosure_panel}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 1.0 }}
-                layout
-              >
-                <motion.p
-                  className={styles.ques_desc}
-                  layout
-                  exit={{ opacity: 0 }}
-                >
-                  <p className={styles.ques}>{props.ques}</p>
-                  <p className={styles.ans}>{props.ques}</p>
-                </motion.p>
-                {
-                  <motion.div
-                    layout
-                    exit={{ opacity: 0 }}
-                    style={{
-                      marginTop: "1rem",
-                    }}
-                    className={styles.icons}
-                  ></motion.div>
-                }
-              </motion.div>
-            )}
-          </AnimatePresence>
-        </motion.div>
+        }
       </motion.div>
     </>
   );

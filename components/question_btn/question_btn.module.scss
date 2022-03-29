@@ -7,89 +7,25 @@ $text-primary: #172a3a;
 $text-secondary: #da4167;
 $black: #141414;
 
-.disclosure_btn {
-  font-family: "Gilroy", sans-serif;
-  font-size: 24px;
-  line-height: 28px;
-  color: $background;
-  padding: 5px 30px;
-  border-radius: 10px;
-  margin: 20px 0px;
-  background: var(--c-light);
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  cursor: pointer;
-  transition: hover 0.3s ease-in-out;
-}
-
-.disclosure_btn:hover {
-  background-color: $text-primary;
-  transition: hover 0.3s ease-in-out;
-}
-.disclosure_btn .btn_top {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.disclosure_btn .btn_top p {
-  font-weight: 600;
-}
-.down_icon {
-  font-size: 42px;
-  color: var(--a-blue);
-  transition: all 0.3s ease;
-}
-.toggle {
-  transform: rotateZ(180deg);
-}
-.disclosure-panel {
-  padding: 20px 0px;
-}
-.disclosure-panel p {
-  white-space: pre-line;
-  vertical-align: bottom;
-}
-.main_div {
+.card {
   background-color: $text-secondary;
-  width: 650px;
   border-radius: 10px;
-}
-.down {
-  transform: rotate(180deg);
-  transition: all 0.3s ease;
-  transition-delay: 0.2s;
-  font-size: 27px;
-  line-height: 0px;
-}
-.down p:hover {
-  transition: all 0.1s;
-}
-.up {
-  transition: all 0.3s ease;
-  font-size: 27px;
-  line-height: 0px;
-}
-
-.up p:hover {
-  transition: all 0.1s;
-}
-.ques {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 35px;
-  line-height: 40px;
-}
-.ans {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 151%;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0px;
+  cursor: pointer;
+  width: 500px;
+  color: $background;
+  font-family: "Gilroy", sans-serif;
+  p {
+    font-size: 20px;
+    color: $background;
+    margin: 0;
+    padding: 0;
+    line-height: 138%;
+    margin: 24px 0px;
+    opacity: 0.8;
+  }
 }
 
 @media screen and (max-width: 768px) {
