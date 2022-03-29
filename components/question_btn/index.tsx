@@ -33,7 +33,7 @@ export default function Index(props: props) {
                 className={styles.disclosure_panel}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 1.0 }}
                 layout
               >
                 <motion.p

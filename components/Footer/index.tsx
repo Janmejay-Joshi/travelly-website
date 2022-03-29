@@ -14,9 +14,9 @@ export default function index() {
             <div className={Styles.content}>
               <h1>Download Travelly App</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                autem eius doloribus dolore obcaecati deleniti quaerat, corporis
-                error omnis quam.
+                We are here to revolutionize, digitalize and standadize travel
+                with you. A one stop destination for customers to find multiple
+                public transports and for drivers to find potential customers.
               </p>
             </div>
             <div className={Styles.footer_btn}>

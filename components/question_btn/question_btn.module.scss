@@ -22,12 +22,12 @@ $black: #141414;
   justify-content: space-between;
   flex-direction: column;
   cursor: pointer;
-  transition: hover 0.1s ease-in-out;
+  transition: hover 0.3s ease-in-out;
 }
 
 .disclosure_btn:hover {
   background-color: $text-primary;
-  transition: hover 0.1s ease-in-out;
+  transition: hover 0.3s ease-in-out;
 }
 .disclosure_btn .btn_top {
   width: 100%;
@@ -90,4 +90,10 @@ $black: #141414;
   font-weight: 500;
   font-size: 24px;
   line-height: 151%;
+}
+
+@media screen and (max-width: 768px) {
+  .main_div {
+    width: 430px;
+  }
 }
