@@ -16,7 +16,9 @@ $black: #141414;
   font-family: "Gilroy", sans-serif;
   color: $background;
   overflow: hidden;
-
+  @media screen and (min-width: 1600px) {
+    padding: 0px 200px;
+  }
   .cover_box {
     display: flex;
     align-items: center;
