@@ -53,3 +53,13 @@ $black: #141414;
     padding: 0px 200px 0px 200px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 0px 20px;
+
+    .btn {
+      padding: 14px 50px;
+    }
+  }
+}

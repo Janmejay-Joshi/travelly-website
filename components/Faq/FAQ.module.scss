@@ -120,3 +120,44 @@ $black: #141414;
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .faq {
+    // font-family: 'Gilroy-Bold';
+    height: 100vh;
+    //   display: flex;
+    //   justify-content: space-between;
+    //   align-items: center;
+
+    padding: 100px 20px 0px 20px;
+    .slider_div {
+      .slider {
+        width: 289px;
+        .slide_button_before {
+          width: 149.86px;
+
+          position: relative;
+          left: -22%;
+        }
+        .slide_button_after {
+          width: 149.86px;
+
+          position: relative;
+          left: 22%;
+        }
+        .p1_before {
+          left: 27vw;
+        }
+        .p1_after {
+          left: 27vw;
+        }
+        .p2_before {
+          right: 29vw;
+        }
+        .p2_after {
+          right: 29vw;
+        }
+      }
+    }
+  }
+}
