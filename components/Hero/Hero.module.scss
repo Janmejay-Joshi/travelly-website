@@ -80,3 +80,8 @@ $black: #141414;
     }
   }
 }
+@media screen and (max-width: 764px) {
+  .hero_img {
+    width: 200px;
+  }
+}

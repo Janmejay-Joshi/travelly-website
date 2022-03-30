@@ -117,3 +117,8 @@ $black: #141414;
     }
   }
 }
+@media screen and (max-width: 764px) {
+  .next_img {
+    visibility: hidden;
+  }
+}

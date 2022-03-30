@@ -70,6 +70,11 @@ $black: #141414;
 }
 @media screen and (max-width: 768px) {
   .main_box {
+    padding: 0 20px;
+    height: 100%;
+    .footer_btn {
+      display: flex;
+    }
     .phone_img {
       display: none;
     }
