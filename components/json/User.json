@@ -1,27 +1,25 @@
 [
-    {
-      "id":1,
-      "ques":"question 1 description user",
-      "ans":"answer 1 description answer 1 description answer 1 description "
-       
-    },
-    
-    {
-      "id":2,
-      "ques":"question 2 description user",
-      "ans":"answer 2 description answer 1 description answer 2 description "
+  {
+    "id": 1,
+    "ques": "How to know where the transit is?",
+    "ans": "Using the GPS technology of our app, you can know where the transit is."
+  },
 
-    },
-    
-    {
-      "id":3,
-      "ques":"question 3 description user",
-      "ans":"answer 3 description answer 1 description answer 3 description "
-    },
-    
-    {
-      "id":4,
-      "ques":"question 4 description user",
-      "ans":"answer 4 description answer 4 description answer 4 description "
-    }
+  {
+    "id": 2,
+    "ques": "How will i know the time of arrival?",
+    "ans": "You can see the time of arrival in the app."
+  },
+
+  {
+    "id": 3,
+    "ques": "How to know the fare?",
+    "ans": "Estimated fare is displayed in the app."
+  },
+
+  {
+    "id": 4,
+    "ques": "Are there any charges for using the app?",
+    "ans": "No, the app is free to use."
+  }
 ]
