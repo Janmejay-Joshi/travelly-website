@@ -12,8 +12,8 @@ const Working = () => {
     const tl = gsap.timeline({
       defaults: { ease: "power3.inOut" },
       scrollTrigger: {
-        start: "top 70%",
-        end: "bottom 800px",
+        start: "20% 80%",
+        end: "bottom bottom",
         trigger: "#img",
         // pin: true,
         scrub: true,
@@ -59,7 +59,7 @@ const Working = () => {
         <div className={Styles.working_container_item_left}>
           <div className={Styles.working_container_item_detail} id="box1">
             <p>1</p>
-            <h3>Request a trip</h3>
+            <h3>Check Your trip</h3>
             <span>
               Choose your pickup and drop-off location, and the trip type that
               meets your needs
@@ -67,10 +67,10 @@ const Working = () => {
           </div>
           <div className={Styles.working_container_item_detail} id="box3">
             <p>3</p>
-            <h3>Enjoy Your Trip</h3>
+            <h3>Get estimated fare</h3>
             <span>
-              Meet your driver with the help of our real-time GPS services and
-              enjoy your trip!
+              Get an estimate amount of money you will pay. You can also check
+              the estimated time of arrival.
             </span>
           </div>
         </div>
@@ -80,18 +80,16 @@ const Working = () => {
         <div className={Styles.working_container_item_right}>
           <div className={Styles.working_container_item_detail} id="box2">
             <p>2</p>
-            <h3>Request a trip</h3>
+            <h3>Know your route</h3>
             <span>
-              Choose your pickup and drop-off location, and the trip type that
-              meets your needs
+              Get a detailed route map and a list of all the stops along the way.
             </span>
           </div>
           <div className={Styles.working_container_item_detail} id="box4">
             <p>4</p>
-            <h3>Enjoy Your Trip</h3>
+            <h3>Track your ride</h3>
             <span>
-              Meet your driver with the help of our real-time GPS services and
-              enjoy your trip!
+              Track your ride and get real-time updates on your trip.
             </span>
           </div>
         </div>

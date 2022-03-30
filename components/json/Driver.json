@@ -4,19 +4,24 @@
     "ques": "Who can register as a driver?",
     "ans": "anyone who is above 18 and has a valid driving license"
   },
+
   {
     "id": 2,
     "ques": "What are the working hours?",
     "ans": " Flexible working hours. "
   },
-  {
+{
     "id": 3,
     "ques": "How do I know where the most passangers are?",
     "ans": "Using our Heatmap technology the drivers will be able to see where the most passengers are. "
   },
+
+
+
   {
     "id": 4,
     "ques": "Do I need to follow a specific route?",
     "ans": "No, you can have flexibility in choosing the path. "
   }
 ]
+
