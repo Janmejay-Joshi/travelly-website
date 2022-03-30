@@ -11,7 +11,7 @@ $black: #141414;
   align-items: center;
   padding: 0px 120px;
   height: 417px;
-  margin-top: 240px;
+  margin-top: 400px;
   margin-bottom: 50px;
   font-family: "Gilroy", sans-serif;
   color: $background;
@@ -65,6 +65,13 @@ $black: #141414;
     .phone2 {
       position: relative;
       bottom: 194px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .main_box {
+    .phone_img {
+      display: none;
     }
   }
 }

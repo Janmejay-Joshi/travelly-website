@@ -1,27 +1,22 @@
 [
-    {
-      "id":1,
-      "ques":"question 1 description driver",
-      "ans":"answer 1 description answer 1 description answer 1 description "
-       
-    },
-    
-    {
-      "id":2,
-      "ques":"question 2 description driver",
-      "ans":"answer 2 description answer 1 description answer 2 description "
-
-    },
-    
-    {
-      "id":3,
-      "ques":"question 3 description driver",
-      "ans":"answer 3 description answer 1 description answer 3 description "
-    },
-    
-    {
-      "id":4,
-      "ques":"question 4 description driver",
-      "ans":"answer 4 description answer 4 description answer 4 description "
-    }
+  {
+    "id": 1,
+    "ques": "Who can register as a driver?",
+    "ans": "anyone who is above 18 and has a valid driving license"
+  },
+  {
+    "id": 2,
+    "ques": "What are the working hours?",
+    "ans": " Flexible working hours. "
+  },
+  {
+    "id": 3,
+    "ques": "How do I know where the most passangers are?",
+    "ans": "Using our Heatmap technology the drivers will be able to see where the most passengers are. "
+  },
+  {
+    "id": 4,
+    "ques": "Do I need to follow a specific route?",
+    "ans": "No, you can have flexibility in choosing the path. "
+  }
 ]
